@@ -2,12 +2,11 @@
 This repository contains code to reproduce all figures from our paper:
 Robinson PA, McInnes A, Sarkar S (2023) Spatiotemporal evolution of urban populations and housing: A dynamic utility-driven market-mediated model. PLOS ONE 18(4): e0282583. https://doi.org/10.1371/journal.pone.0282583
 
-
-## Abstract: A model of the spatiotemporal evolution of urban areas is developed that includes effects on house-hold utility of geography, population density, household preference for characteristics of dwellings and neighbors, and disposable income. Housing market evolution then results via transactions driven by increases in utility and changes in numbers of households and dwellings. Examples are presented of how the model can simulate formation of monocentric and polycentric urban areas, stratification by wealth, segregation due to preferences for housing or neighbors, and the balance of supply and demand. These results reproduce, unify, and extend the results of prior models that covered specialized aspects of these phenomena. Potential generalizations are discussed and further applications are suggested.
-
+Abstract: A model of the spatiotemporal evolution of urban areas is developed that includes effects on house-hold utility of geography, population density, household preference for characteristics of dwellings and neighbors, and disposable income. Housing market evolution then results via transactions driven by increases in utility and changes in numbers of households and dwellings. Examples are presented of how the model can simulate formation of monocentric and polycentric urban areas, stratification by wealth, segregation due to preferences for housing or neighbors, and the balance of supply and demand. These results reproduce, unify, and extend the results of prior models that covered specialized aspects of these phenomena. Potential generalizations are discussed and further applications are suggested.
 
 
-Packages required
+
+## Packages required
 -------
 numpy
 pandas
@@ -24,7 +23,7 @@ shutil
 
 
 
-Info
+## Info
 ------------------------------------
 
 /main/ contains code for the main model & associated visualisation package. The main model contains all necessary code to reproduce the example cases below. The visualisation function contains all code to produce relevant results + additional figures.
@@ -34,7 +33,7 @@ Info
 
 
 
-Required directory structure to run the model
+## Required directory structure to run the model
 ------------------------------------
 /market_dynamics_main.py - main model
 /market_dynamics_visualisations.py - visualisation package
@@ -46,7 +45,7 @@ Required directory structure to run the model
 
 
 
-Instructions
+## Instructions
 --------------
 this file should serve as instructions for use of the model.
 
@@ -59,7 +58,7 @@ Code has thorough comments.
 
 
 
-Example cases
+## Example cases
 ----------------
 
 Case A (seed 2) - City Formation: effect of q0.q0. This demonstrates the effect of clustering via the characteristic for clustering q0, with single-multiple large cluster(s) forming in the default version. This case produces figure 7 within the paper. 
