@@ -36,22 +36,22 @@ Code has thorough comments.
 
 ## Example cases
 
-- Case A (seed 2) - City Formation: effect of q0.q0. This demonstrates the effect of clustering via the characteristic for clustering q0, with single-multiple large cluster(s) forming in the default version. This case produces figure 7 within the paper. 
+- Case A (np.random.seed(2)) - City Formation: effect of q0.q0. This demonstrates the effect of clustering via the characteristic for clustering q0, with single-multiple large cluster(s) forming in the default version. This case produces figure 7 within the paper. 
 ![urbanfig7gh](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/a050ec51-eb8b-42e3-8f09-afa2f0f47e0a)
 
-- Case B (seed 69) - Effect of U0: effect of U0(r) term. This demonstrates the effect of clustering via the characteristic for clustering q0, with the U0(r) vector associated with dwellings providing a spatial preference for clustering. The default version has U0(r) specified at maximum at (12.5, 12.5) in a system with size R=25km and declining as a gaussian. A secondary effect visible in this case is the stratification of households via wealth (price sensitivity) s0, with the wealthiest dominating the centre of the cluster where U0(r) is at maximum. This case produces figures 8, 9, 10 within the paper.
+- Case B (np.random.seed(69)) - Effect of U0: effect of U0(r) term. This demonstrates the effect of clustering via the characteristic for clustering q0, with the U0(r) vector associated with dwellings providing a spatial preference for clustering. The default version has U0(r) specified at maximum at (12.5, 12.5) in a system with size R=25km and declining as a gaussian. A secondary effect visible in this case is the stratification of households via wealth (price sensitivity) s0, with the wealthiest dominating the centre of the cluster where U0(r) is at maximum. This case produces figures 8, 9, 10 within the paper.
 ![urbanfig9ef](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/e966d710-1ac4-4b83-8316-bb8a114253f0)
 ![urbanfig8ab](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/00dd843d-e547-483b-9882-261afa95e63a)
 
-- Case C (seed 99) - Effects of Spatial Localization of Favored Dwelling Characteristics: effect of s.B (beyond s0.B0). This case produces figure 11 within the paper.
+- Case C (np.random.seed(99)) - Effects of Spatial Localization of Favored Dwelling Characteristics: effect of s.B (beyond s0.B0). This case produces figure 11 within the paper.
 ![urbanfig11](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/432b9c4b-2b12-4242-ac76-38c3d2a09dc4)
 
 
 
-- Case D (seed 70) - Segregation: effect of q.q (beyond q0.q0). This demonstrates the effect of segregation by characteristic type q1 which is sampled from [-1,+1] by default. Figures 12a-f show results for variations in q1 and neighbourhood size h. The default version has q1 = +-1 and h = 1km. This case produces figures 12,13, and the movie corresponding to figure 13 within the paper.
+- Case D (np.random.seed(70)) - Segregation: effect of q.q (beyond q0.q0). This demonstrates the effect of segregation by characteristic type q1 which is sampled from [-1,+1] by default. Figures 12a-f show results for variations in q1 and neighbourhood size h. The default version has q1 = +-1 and h = 1km. This case produces figures 12,13, and the movie corresponding to figure 13 within the paper.
 ![urbanfig12](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/e658d278-254a-42a8-9525-3493a5f684fb)
 
 
 
-- Case E (seed 69) - Supply and Demand (effect of non-zero epsilon, rho, beta, lambda; altering households N & dwellings M respectively). This case contains 4 modes for population increase/decrease and dwelling increase/decrease. This demonstrates the effects of supply and demand on the density of households/dwellings, the price of dwellings, the utility of households. This case produces figure 14 within the paper.
+- Case E (np.random.seed(69)) - Supply and Demand (effect of non-zero epsilon, rho, beta, lambda; altering households N & dwellings M respectively). This case contains 4 modes for population increase/decrease and dwelling increase/decrease. This demonstrates the effects of supply and demand on the density of households/dwellings, the price of dwellings, the utility of households. This case produces figure 14 within the paper.
 ![urbanfig14](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/9e6e40a3-c234-40d2-9d0a-551462a52687)
