@@ -18,16 +18,20 @@ Abstract: A model of the spatiotemporal evolution of urban areas is developed th
 
 
 ## Required directory structure to run the model
-
-
 .
+
 ├── market_dynamics_main.py               # main model
+
 ├── market_dynamics_visualisations.py     # visualisation package
+
 ├── data                     # input & output data
+
 │   ├── input                # (1) 
+
 │   ├── output               # (2)
 
 (1) allows for input of results into market_dynamics_visualisations.py from previous iterations of the model for further analysis of results & alternative plots.
+
 (2) all data and relevant figures output from simulation. A directory with corresponding date and timestamp of simulation will be created to store the ouputs of each run of the model.
 
 
