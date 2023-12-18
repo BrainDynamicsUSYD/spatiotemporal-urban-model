@@ -12,9 +12,6 @@ Abstract: A model of the spatiotemporal evolution of urban areas is developed th
 
 /main/ contains code for the main model & associated visualisation package. The main model contains all necessary code to reproduce the example cases below. The visualisation function contains all code to produce relevant results + additional figures.
 
-/example-cases/ contains code for all **specific** example cases within the paper (+ few variations not included within the paper). These are variations of the main model.
-
-
 
 ## Required directory structure to run the model
 
@@ -30,7 +27,7 @@ Abstract: A model of the spatiotemporal evolution of urban areas is developed th
 
 this file should serve as instructions for use of the model.
 
-`market_dynamics_main.py` contains the simulation component of the model, while `market_dynamics_visualisations.py` contains all plotting related functions to visualise the results. Case input is required at the end of the code (approx. line 1852) in market_dynamics.py, with the parameters of the example cases below pre-loaded. Case '9' allowing for custom specification of parameters and for extensions of the model. Most of the parameters for the model are contained within the 'simulate.model_parameters()' function (approx. line 1129). 
+`market_dynamics_main.py` contains the simulation component of the model, while `market_dynamics_visualisations.py` contains all plotting related functions to visualise the results. Case input is required at the end of the code (approx. line 1852) in market_dynamics.py, with the parameters of the example cases (**specifically** used in paper) below pre-loaded. Case '9' allowing for custom specification of parameters and for extensions of the model. Most of the parameters for the model are contained within the 'simulate.model_parameters()' function (approx. line 1129). 
 
 During model initialisation, households, dwellings and other relevant model arrays are randomly generated. Following from this, any relevent figures depicting the model specification are produced and saved. Iteration from t=0 to t=y is carried out where y is the number of years with typically 4 rounds transactions occurring per year. During each round of transactions, all household utilities and dwelling prices are calculated and updated prior to transaction, and the utilities and prices of households/dwellings that transact are also updated following transaction. The household and dwelling profile arrays are saved at each timestep. Following iteration of the model, all figures relevant to the specified case are produced and saved.
 
