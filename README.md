@@ -44,11 +44,13 @@ Code has thorough comments.
 ![urbanfig8ab](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/00dd843d-e547-483b-9882-261afa95e63a)
 
 - Case C (seed 99) - Effects of Spatial Localization of Favored Dwelling Characteristics: effect of s.B (beyond s0.B0). This case produces figure 11 within the paper.
-![urbanfig11](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/c8e71063-678c-4322-9308-7ea5a1e9e48c)
+![urbanfig11](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/432b9c4b-2b12-4242-ac76-38c3d2a09dc4)
+
 
 
 - Case D (seed 70) - Segregation: effect of q.q (beyond q0.q0). This demonstrates the effect of segregation by characteristic type q1 which is sampled from [-1,+1] by default. Figures 12a-f show results for variations in q1 and neighbourhood size h. The default version has q1 = +-1 and h = 1km. This case produces figures 12,13, and the movie corresponding to figure 13 within the paper.
-![urbanfig12](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/593ab982-504a-41f2-a8d0-0e2a697b2ae9)
+![urbanfig12](https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/e658d278-254a-42a8-9525-3493a5f684fb)
+
 
 
 - Case E (seed 69) - Supply and Demand (effect of non-zero epsilon, rho, beta, lambda; altering households N & dwellings M respectively). This case contains 4 modes for population increase/decrease and dwelling increase/decrease. This demonstrates the effects of supply and demand on the density of households/dwellings, the price of dwellings, the utility of households. This case produces figure 14 within the paper.
