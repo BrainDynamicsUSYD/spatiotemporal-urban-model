@@ -18,17 +18,8 @@ Abstract: A model of the spatiotemporal evolution of urban areas is developed th
 
 
 ## Required directory structure to run the model
-.
 
-├── market_dynamics_main.py               # main model
-
-├── market_dynamics_visualisations.py     # visualisation package
-
-├── data                     # input & output data
-
-│   ├── input                # (1) 
-
-│   ├── output               # (2)
+<img width="489" alt="Screenshot 2023-12-18 at 6 46 31 pm" src="https://github.com/a-mcinnes/spatiotemporal-urban-model/assets/55568285/5c485350-8244-48bc-824a-64795c99b9fb">
 
 (1) allows for input of results into market_dynamics_visualisations.py from previous iterations of the model for further analysis of results & alternative plots.
 
